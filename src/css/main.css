@@ -13,6 +13,7 @@
     /* typefaces */
     --cust-typeface: 'Raleway', sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +40,11 @@ img {
 }
 .card p{
     margin: 6px;
+    padding: 5px;
+}
+.card-more-info ul{
+    margin-left: 20px;
+ 
 }
 .image{
     flex:1;
@@ -123,7 +129,60 @@ nav ul>li>a:hover {
     display: flex;
 
   }
+  .card-more-info {
+flex: 2;  
+border: none;
+outline: none;
+padding: 50px;
+background: linear-gradient(#f8f8f8, #fff);
+box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+display: inline-block;
+box-sizing: border-box;
+    
+  }
 
-  
-  
-  
+.container1{
+    
+    display: flex;
+    background-color: #FFFFFF;
+    width: 80%;
+    max-width: 1200px;
+    height: 300px; ;
+  min-height:500px ;
+  border: none;
+  outline: none;
+    
+  }
+  .list{
+    flex:5 ;
+  }
+  .form{
+flex: 2;  
+border: none;
+outline: none;
+padding: 50px;
+  }
+  .recipe{
+
+    display: grid;
+  grid-auto-rows: 600px;
+  }
+
+
+
+input[type="submit"]{
+    background-color:#730217  ;
+    color:#F2DAC4 ;
+    border-radius: 12px;
+    width: 120px;
+ 
+ }
+
+ #moreInfo{
+    background-color:#730217  ;
+    color:#F2DAC4 ;
+    border-radius: 12px;
+    width: 120px;
+    margin: 12px;
+ 
+ }

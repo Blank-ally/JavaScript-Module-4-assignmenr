@@ -2,6 +2,7 @@ html {
    background-image: url("/src/css/homepage/index.jpg");
    background-size: cover;
    background-repeat:no-repeat;
+   background-position: center;
 }
 
 #container {

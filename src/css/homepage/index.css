@@ -1,0 +1,22 @@
+html {
+   background-image: url("/src/css/homepage/index.jpg");
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+#container {
+   margin: 100px auto;
+   display: inline-block;
+   width: 80%;
+   max-width: 1200px;
+   min-height: 300px;
+   border: none;
+   outline: none;
+   color: #FFF8EE;
+   padding-left: 100px;
+
+}
+.block{
+   margin:20px;
+   width: 300px;
+}

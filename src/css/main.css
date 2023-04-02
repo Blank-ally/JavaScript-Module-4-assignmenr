@@ -1,0 +1,129 @@
+/*For testing. Delete this.*/ 
+:root {
+    --cust-color-main: #222601;
+    --cust-color-accent:  #8C7A64;  
+    --cust-color-text: #323232;
+    --cust-color-text-reverse:#F2DAC4 ;
+    --cust-color-link: #EC7357;
+    --cust-color-background: #D9D3C7;
+
+    /* widths */
+    --cust-max-width: 900px;
+
+    /* typefaces */
+    --cust-typeface: 'Raleway', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+    display: flex;
+   
+    
+}
+.card p{
+    margin: 6px;
+}
+.image{
+    flex:1;
+    border: none;
+    outline: none;
+
+}
+.content{
+    flex: 3;
+    border: none;
+    outline: none;
+}
+
+.hide{
+    display: none;
+}
+
+nav{
+    background-color:#730217 ;
+}
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu>.logo {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: left;
+}
+
+nav .menu>.logo>span.logo-line-one {
+    color: var(--cust-color-text-reverse);
+    font-family: var(--cust-typeface);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+nav .menu>.logo>span.logo-line-two {
+    color: var(--cust-color-text-reverse);
+    font-style: italic;
+    font-family: var(--cust-typeface);
+}
+
+nav .menu>.items {
+    align-items: right;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex; 
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul>li>a {
+    text-decoration: none;
+    color: var(--cust-color-text-reverse);
+    padding: 20px;
+    display: block;
+    transition: .5s;
+    font-family: var(--cust-typeface);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav ul>li>a:hover {
+    text-decoration: none;
+    background-color:#475759 ;
+}
+.block{
+    display: block;
+ 
+  }
+.cardList{
+    height: 125vh;
+    background: #141414;
+    width: 100%;
+    padding-left: 35px;
+    display: flex;
+
+  }
+
+  
+  
+  

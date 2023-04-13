@@ -31,7 +31,7 @@ $(function () {
     $('.card').on("click", function (e) {
         // console.log(e.target)
         let $target = $(e.target).closest('.card')
-        $target.siblings().show('.card-more-info')
+        $target.siblings().toggle('.card-more-info')
     })
 
     $('#course').on('submit', function (e) {
@@ -53,7 +53,7 @@ $(function () {
         $('.card').on("click", function (e) {
             // console.log(e.target)
             let $target = $(e.target).closest('.card')
-            $target.siblings().show('.card-more-info')
+            $target.siblings().toggle('.card-more-info')
         })
     })
 
